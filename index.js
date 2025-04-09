@@ -10,7 +10,8 @@ function fruitSorting(){
             appleShelf.textContent += "🍎";
         } else if (fruits[i] === "🍊"){
             orangeShelf.textContent += "🍊";
-        } else if (fruits[i] === "🥭"){
+        } else {
+            fruits[i] === "🥭";
             mangoShelf.textContent += "🥭";
         }
     }
