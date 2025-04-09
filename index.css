@@ -13,19 +13,26 @@ body{
     text-align: center;
     border: 3px solid var(--container-border-color);
     margin: 150px auto;
-    width: 40%;
+    width: 70%;
     border-radius: 3px;
 }
 
 /* Section container */
 .section-container{
+    display: flex;
+    justify-content: space-around;
     margin: 40px
 }
 
-/* Apple & Orange Shelf Styles */
-#appleshelf, #orangeshelf{
-    width: 40%;
+/* Shelf Styles */
+#appleshelf, #orangeshelf, #mangoshelf{
+    /* width: 40%; */
     margin: 10px auto;
     padding: 20px;
     background-color: var(--shelf-background-color);
+    border-radius: 3px;
+}
+
+.fruits-heading{
+    font-size: 30px;
 }
