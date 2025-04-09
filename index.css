@@ -1,6 +1,31 @@
+:root{
+    --shelf-background-color: rgb(17, 49, 139);
+    --container-border-color: rgb(22, 36, 73);
+}
+/* Body */
 body{
     margin: 0;
     padding: 0;
-    background: red;
-    color: white;
+}
+
+/* Container */
+.container{
+    text-align: center;
+    border: 3px solid var(--container-border-color);
+    margin: 150px auto;
+    width: 40%;
+    border-radius: 3px;
+}
+
+/* Section container */
+.section-container{
+    margin: 40px
+}
+
+/* Apple & Orange Shelf Styles */
+#appleshelf, #orangeshelf{
+    width: 40%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: var(--shelf-background-color);
 }
